@@ -452,6 +452,10 @@ footer a, footer p {
         font-size: 13cqw;
     }
 
+    span {
+        font-size: 2em;
+    }
+
     .logo {
         font-size: 4em;
         width: 10px;
@@ -465,6 +469,17 @@ footer a, footer p {
 
     h3 {
         font-size: 2.5em;
+    }
+
+    .localnavbar {
+        display: flex;
+        position: sticky;
+        flex-direction: flex;
+        padding: 5%;
+        background-color: #E3E3E0;
+        z-index: 3;
+        top: 24%;
+        box-shadow: -5px 4px 4px rgba(0, 0, 0, 0.2);
     }
 
 /* HAMBURGER */
@@ -501,6 +516,7 @@ footer a, footer p {
         text-align: center;
         transition: 0.5s;
         background-color: #E3E3E0;
+        box-shadow: -5px 4px 4px rgba(0, 0, 0, 0.2);
     }
 
     .nav-item {
@@ -514,6 +530,10 @@ footer a, footer p {
 
     .nav-menu.active {
         right: 0;
+    }
+
+    .localnavbar a {
+        font-size: 2em;
     }
 
 /* ABOUT.HTML */
@@ -551,32 +571,15 @@ footer a, footer p {
     }
 
     #T1, #T2, #T3, #T4, #T5, #T6 {
-        margin-top: 80%;
+        margin-bottom: 24%;
     } 
 
-/* LOCAL NAVBAR */
-
-    .localnavbar {
-        display: flex;
-        position: sticky;
-        flex-direction: flex;
-        padding: 5%;
-        background-color: #E3E3E0;
-        z-index: 3;
-        top: 25%;
-    }
-
-    .localnavbar a {
-        font-size: 3cqw;
-    }
-
 }
-
-
 
 /* RESPONSIVITET -700PX */
 
     @media (max-width: 700px){
+     
 
         footer img {
             width: 50%;
@@ -598,4 +601,17 @@ footer a, footer p {
         span {
             font-size: 5cqw;
         }
-}
+
+        /* LOCAL NAVBAR */
+
+        .localnavbar {
+            display: flex;
+            position: sticky;
+
+        }
+
+        #T1, #T2, #T3, #T4, #T5, #T6 {
+            margin-bottom: 50%;
+        } 
+
+    }
