@@ -382,14 +382,15 @@ button:hover {
 
 .scroll-up {
     position: fixed;
+    font-size: 5vh;
     bottom: 4vh;
     right: 5vh;
-    width: 6vh;
-    height: 10vh;
+    width: 5vh;
+    height: 8vh;
     background-color: #574D48;
     color: white;
     text-align: center;
-    font-size: 7vh;
+    align-items: center;
     cursor: pointer;
     box-shadow: 6px 2px 4px rgba(0, 0, 0, 0.3);
     border-radius: 2px;
@@ -547,7 +548,7 @@ footer a, footer p {
     }
 
     #T1, #T2, #T3, #T4, #T5, #T6 {
-        margin-top: 60%;
+        margin-top: 80%;
     } 
 
 /* LOCAL NAVBAR */
